@@ -61,12 +61,15 @@ tbody .location-row td {
   font-weight: 600;
   color: #2882ed;
   border-bottom: none;
+  /* padding-top: 32px; */
 }
 
 tbody td {
+  border-bottom: 1.5px solid #5f5555;
   padding: 12px;
-  border-bottom: 1.5px solid #5f55557a;
-  color: #333;
+}
+tbody .location-row td {
+  padding-top: 16px;
 }
 
 tbody td:first-child {
